@@ -18,7 +18,7 @@ echo "[" > ingress.json
   echo "  \"source-type\": \"CIDR_BLOCK\"," >> ingress.json
   echo "  \"protocol\": \"6\"," >> ingress.json
   echo "  \"isStateless\": \"false\"," >> ingress.json
-  echo "  \"Description\": \"zvo\"," >> ingress.json
+  echo "  \"Description\": \"serverrdp\"," >> ingress.json
   echo "  \"tcp-options\": {" >> ingress.json
   echo "   \"destination-port-range\": {" >> ingress.json
   echo "      \"max\": 3389," >> ingress.json
